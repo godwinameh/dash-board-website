@@ -1,0 +1,190 @@
+:root{
+    --primary-col:red;
+    --secondary-col:blue;
+    --tertiary-col: #ccc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+}
+.left_vertical_container{
+   width: 60px;
+   background-color:var(--primary-col); 
+   height: 100%;
+}
+
+.right_vertical_container{
+    width: calc(100% - 60px);
+    color: var(--secondary-col);
+    height: 100px;
+
+}
+
+.icon-holder{
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-holder span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:var(--secondary-col) ;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .other_links{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .other_links i{
+        color:var(--secondary-col) ;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        border-bottom:1px solid #ccc ;
+        padding:0 20px ;
+        color: var(--secondary-col);
+    }
+    .icons_right i{
+        padding:10px ;
+    }
+    .inner_vertical_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .university_degree{
+        width: 300px;
+    }
+
+    .godwin_ameh{
+        width: calc(100% - 300px);
+    }
+
+    .uni_header, .godwin_ameh_header{
+        display: flex;
+        justify-content: space-between;
+        color: var(--primary-col);
+        height: 50px;
+        align-items: center;
+        padding: 0 15px;
+        border-bottom: 1px solid #ccc;
+
+    }
+
+    .uni_body,.godwin_ameh_body{
+        max-height: calc(100vh - 120px);
+        overflow-y: scroll;
+
+    }
+
+    .godwin_ameh_card_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--tertiary-col);
+        padding: 10px;
+    }
+
+    ::-webkit-scrollbar{
+        background-color: var(--primary-col);
+        width: 5px;
+    }
+
+    .godwin_ameh_card_header{
+        color: black !important;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .uni_card{
+        padding: 4px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--tertiary-col);
+        height: 50px;
+    }
+
+    .uni_circle{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: black;
+        color: var(--secondary-col);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: smaller;
+    }
+    .godwin_ameh_card{
+        margin: 4px;
+        padding: 4px;
+        box-shadow: 5px 3px 26px -7px black;
+        border-radius: 3px;
+    }
+
+    .godwin_ameh_card_content{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 4px;
+    }
+
+    .inner_card_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inner_bottom_overview h4{
+        border-bottom: 1px solid var(--tertiary-col);
+        padding: 10px;
+    }
+
+    .overview_inner span{
+        display: flex;
+        padding: 10px;
+    } 
+    span i{
+        padding: 0 5px;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
